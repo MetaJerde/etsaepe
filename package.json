@@ -1,0 +1,35 @@
+{
+  "name": "etsaepe",
+  "version": "1.0.0",
+  "description": "Generate two-factor authentication codes for smart contracts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaJerde/etsaepe.git"
+  },
+  "author": "EltaGraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetaJerde/etsaepe.git/issues"
+  },
+  "homepage": "https://github.com/MetaJerde/etsaepe.git",
+  "dependencies": {
+    "amorph": "^1.1.0",
+    "arguguard": "0.0.6",
+    "commander": "^2.9.0",
+    "keccak256-amorph": "0.0.1",
+    "random-amorph": "0.0.1"
+  },
+  "devDependencies": {
+    "amorph-parse-solc-output": "^0.1.0",
+    "chai": "^3.5.0",
+    "chai-amorph": "0.0.4",
+    "ethereumjs-testrpc": "^3.0.3",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "q": "^1.4.1",
+    "random-amorph": "0.0.1",
+    "solc": "^0.4.10",
+    "ultralightbeam": "^0.16.4"
+  }
+}
